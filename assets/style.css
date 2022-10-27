@@ -17,9 +17,10 @@ canvas {
   display: flex;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   transition: all ease-in-out 1s;
+  overflow: hidden;
 }
 
 .password-generator {
@@ -139,6 +140,7 @@ input[type="number"]::-webkit-inner-spin-button {
 @media only screen and (min-width: 889px) {
   .container {
     left: 30%;
+    width: 33%;
   }
   .password-generator {
     width: 30vw;
