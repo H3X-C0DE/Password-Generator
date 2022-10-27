@@ -139,8 +139,8 @@ input[type="number"]::-webkit-inner-spin-button {
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) {
   .container {
-    left: 30%;
-    width: 33%;
+    left: 33.33%;
+    width: 33.33%;
   }
   .password-generator {
     width: 30vw;
