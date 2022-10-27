@@ -83,6 +83,7 @@ canvas {
   border: none;
   text-align: center;
   border-radius: 5px;
+  min-width: 10em;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
