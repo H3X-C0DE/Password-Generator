@@ -12,15 +12,16 @@ body {
 canvas {
   display: block;
 }
+section {
+  display: flex;
+  justify-content: center;
+}
 
 .container {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
   position: absolute;
   transition: all ease-in-out 1s;
   overflow: hidden;
+  top: 10%;
 }
 
 .password-generator {
@@ -47,10 +48,11 @@ canvas {
   padding: 0 0 0.5em;
   text-transform: uppercase;
   font-size: 1.2em;
+  overflow: hidden;
 }
 
 .password {
-  min-width: 280px;
+  /* min-width: 280px; */
   max-height: 70px;
   background-color: #000000;
   color: #667eea;
@@ -84,7 +86,6 @@ canvas {
   border: none;
   text-align: center;
   border-radius: 5px;
-  min-width: 10em;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -138,10 +139,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) {
-  .container {
-    left: 33.33%;
-    width: 33.33%;
-  }
+  /* .container {
+    display: flex;
+    justify-content: center;
+  } */
   .password-generator {
     width: 30vw;
   }

@@ -14,59 +14,60 @@
     <title>Password Generator</title>
 </head>
 <body>
-    <body>
-        <div class="container">
-            <div class="password-generator">
-              <div class="title-box">
-
-                <div class="data">
-                    Password&nbsp;&nbsp;Generator
-                   </div>
-            </div>
-              <div class="password" onclick="copyPassword()">
-                <p id="passwordBox"></p><i class="far fa-clipboard" onclick="copyPassword()"></i></i>
-              </div>
-            <div>
-            
-                <label for="length">
-                    <div class="quote">Length</div>
-                </label>
-                <input class="number-input" type="number" id="length" min="6" max="100" value="20">
-            </div>
-            <div>
-            
-                <label for="symbol">
-                    <div class="data">Include Symbol</div>
-                </label>
-                <input class="check-box" type="checkbox" id="symbol" checked>
-            </div>
-            <div>
-            
-                <label for="number">
-                    <div class="quote">Include Number</div>
-                </label>
-                <input class="check-box" type="checkbox" id="number" checked>
-            </div>
-            <div>
-            
-                <label for="lowerCase">
-                    <div class="data">Include lowerCase</div>
-                </label>
-                <input class="check-box" type="checkbox" id="lowerCase" checked>
-            </div>
-            <div>
-                <label for="upperCase">
-                    <div class="quote">Include upperCase</div>
-                </label>
-                <input class="check-box" type="checkbox" id="upperCase" checked>
-            </div>
-            <div class="btn">
-                <div class="data" onclick="createPassword()">
-                    Get Random Password
+        <section>
+            <div class="container">
+                <div class="password-generator">
+                  <div class="title-box">
+    
+                    <div class="data">
+                        Password&nbsp;&nbsp;Generator
+                       </div>
+                </div>
+                  <div class="password" onclick="copyPassword()">
+                    <p id="passwordBox"></p><i class="far fa-clipboard" onclick="copyPassword()"></i></i>
                   </div>
-              </div>
-            </div>
-          </div>  
+                <div>
+                
+                    <label for="length">
+                        <div class="quote">Length</div>
+                    </label>
+                    <input class="number-input" type="number" id="length" min="6" max="100" value="20">
+                </div>
+                <div>
+                
+                    <label for="symbol">
+                        <div class="data">Include Symbol</div>
+                    </label>
+                    <input class="check-box" type="checkbox" id="symbol" checked>
+                </div>
+                <div>
+                
+                    <label for="number">
+                        <div class="quote">Include Number</div>
+                    </label>
+                    <input class="check-box" type="checkbox" id="number" checked>
+                </div>
+                <div>
+                
+                    <label for="lowerCase">
+                        <div class="data">Include lowerCase</div>
+                    </label>
+                    <input class="check-box" type="checkbox" id="lowerCase" checked>
+                </div>
+                <div>
+                    <label for="upperCase">
+                        <div class="quote">Include upperCase</div>
+                    </label>
+                    <input class="check-box" type="checkbox" id="upperCase" checked>
+                </div>
+                <div class="btn">
+                    <div class="data" onclick="createPassword()">
+                        Get Random Password
+                      </div>
+                  </div>
+                </div>
+              </div>  
+        </section>
         <canvas id="c"></canvas>
 
     </body>
