@@ -22,6 +22,7 @@ section {
   transition: all ease-in-out 1s;
   overflow: hidden;
   top: 10%;
+  max-width: 385px;
 }
 
 .password-generator {
