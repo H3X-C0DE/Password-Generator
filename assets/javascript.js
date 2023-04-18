@@ -62,7 +62,7 @@ text.set({
 });
 text.start();
 //revel speed
-text.reveal(6500);
+text.reveal(2700);
 
 const text1 = baffle(".quote");
 text1.set({
@@ -71,7 +71,7 @@ text1.set({
 });
 text1.start();
 //revel speed
-text1.reveal(6500);
+text1.reveal(2500);
 
 //-----------------BG ANIMATION-----------------------//
 var c = document.getElementById("c");
